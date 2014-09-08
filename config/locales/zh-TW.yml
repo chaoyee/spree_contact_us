@@ -7,10 +7,10 @@ zh-TW:
           email: "電子郵件"
           message: "訊息"
           subject: "主題"
-    contact_us_title: "聯絡我們"
+    contact_us_title: "聯絡客服"
     sent_by_contact_form: "來自 %{email} 並由聯絡表單寄出"
     sent_by_name: "來自 %{email}，由 %{name} 寄出 "
-    subject: "來自 %{email} 有關於'聯絡我們'的訊息"
+    subject: "來自 %{email} 有關於'聯絡客服'的訊息"
     submit: "寄出"
 
     contact_us:

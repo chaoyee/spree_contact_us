@@ -19,6 +19,10 @@ class Spree::ContactUs::ContactsController < Spree::StoreController
     @taxonomies = Spree::Taxonomy.includes(root: :children)
   end
 
+  def download
+    send_file("#{Rails.root}/public/test.pdf", type: "application/pdf")
+  end
+
   private
 
   def accurate_title
